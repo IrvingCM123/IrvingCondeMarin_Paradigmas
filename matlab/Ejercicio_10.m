@@ -20,8 +20,8 @@ for i=1:Contenedor;
   if Validador==1
     break
   endif
-  fprintf('\n')
   for a=1:Contenedor;
       A(i,a)
   endfor
+   fprintf('\n')
 endfor
