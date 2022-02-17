@@ -8,6 +8,14 @@ contenedor = 5;
 
 for i=1:contenedor;
   for a=1:i;
-      A(i,a)
+     A(i,a)
   endfor
+endfor
+
+fprintf('Figura de la matriz: \n')
+for i=1:contenedor;
+  for a=1:i;
+     fprintf('%d',A(i,a))
+  endfor
+  fprintf('\n')
 endfor
