@@ -1,4 +1,4 @@
-clear,clc
+clear
 
 A = [1 5 5; 
      2 7 1];
@@ -8,7 +8,7 @@ B = [2 5 7 4 6 2;
      9 8 2 1 5 2];
          
 columnas_A=2;
-columnas_B=6
+columnas_B=6;
 renglones=3;
 
 C = A*B
